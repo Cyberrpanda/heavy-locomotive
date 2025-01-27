@@ -1,0 +1,39 @@
+.form{
+   position: relative; 
+}
+
+.form_content{
+   background-color: $white;
+   display: flex;
+   
+
+   &-1{
+      position: absolute;
+      left: 25rem;
+      right: 25rem;
+      height: 52rem;
+      font-size: 1.9rem;
+      background-color: $white;
+      width: 5.2rem;
+      box-sizing: border-box;
+      
+   }
+
+   &-2{
+      position: absolute;
+      left: 25rem;
+      right: 25rem;
+      height: 52rem;
+      font-size: 1.9rem;
+      background-color: $white;
+      box-sizing: border-box;
+
+   }
+}
+
+.form__opening{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   font-size: 1.9rem;
+}
