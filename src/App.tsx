@@ -1,13 +1,16 @@
-import Form from "./components/form"
+import Header from "../src/components/header.tsx";
+import Welcome from "../src/components/welcome.tsx";
+import About from "./components/about.tsx";
 
 function App() {
   return (
    <>
-     <div className="intro">
-      <p className="intro__text"></p>
-     </div>
+    <Header/>
+    
+    <Welcome/>
 
-    <Form/>
+    <About/>
+
    </>
   
   )

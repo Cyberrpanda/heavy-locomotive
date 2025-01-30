@@ -1,0 +1,14 @@
+.header{
+    background-color: $yellow;
+    height: 19vh;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        
+    }
+
+    &__logo{
+        height: 14.5rem;
+    }
+}

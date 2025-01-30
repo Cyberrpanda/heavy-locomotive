@@ -1,0 +1,16 @@
+.btn{
+    background-color: $green;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    position: absolute;
+    top: 54%;
+    left: 45%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $black;
+    font-size: $default-font-size;
+
+    &:hover{
+        background-color: darken($green, 10%);    
+    }
+}

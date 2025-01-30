@@ -1,0 +1,20 @@
+.welcome{
+    background-image: url("./img/diane-picchiottino-s6D7dw6w5h8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    &__text{
+        color: $white;
+        position: absolute;
+        top: 50%;
+        left: 37%;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+.about-section{
+    
+}
