@@ -1,5 +1,5 @@
 .btn{
-    background-color: $green;
+    background-color: $white;
     border-radius: 2rem;
     padding: 1.5rem;
     position: absolute;
@@ -9,8 +9,43 @@
     text-decoration: none;
     color: $black;
     font-size: $default-font-size;
+    transition: all .2s;
 
     &:hover{
-        background-color: darken($green, 10%);    
+        background-color: darken($yellow, 5%);   
+        transform: translateY(-3px); 
     }
+
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 .5px 1rem rgba($black,.2); 
+      }
+
+    &--yellow {
+        background-color: $yellow;
+        
+        &::after {
+            background-color: $yellow;
+        }
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+      }
+
+    &--animated {
+     animation: moveInBottom .5s ease-out .75s; 
+     animation-fill-mode: backwards;
+   }  
 }
+
+

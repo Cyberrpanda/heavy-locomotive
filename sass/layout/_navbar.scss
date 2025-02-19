@@ -1,0 +1,41 @@
+.head{
+    background-color: $yellow;
+    height: 17vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem; 
+    z-index: 10;
+    
+
+    &__logo-box {
+        position: relative;
+        z-index: 11;
+        
+    }
+
+    &__logo {
+        padding-top: 5px;
+        height: 17rem;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    ul {
+       display: flex;
+       list-style: none;
+       padding: 0;
+       margin: 0;
+    }
+
+    li {
+       display: inline-flex;
+       padding: 6px;
+    }
+
+    li a {
+        text-decoration: none;
+        color: $black;
+    }
+}

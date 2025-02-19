@@ -1,11 +1,11 @@
-import Header from "../src/components/header.tsx";
+import Navbar from "./components/navbar.tsx";
 import Welcome from "../src/components/welcome.tsx";
 import About from "./components/about.tsx";
 
 function App() {
   return (
    <>
-    <Header/>
+    <Navbar/>
     
     <Welcome/>
 
