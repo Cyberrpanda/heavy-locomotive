@@ -4,6 +4,7 @@ import Services from "./components/services.tsx";
 import About from "./components/about.tsx";
 import Team from "./components/team.tsx";
 
+
 function App() {
   return (
    <>
@@ -14,6 +15,7 @@ function App() {
     <Services/>
 
     <Team/>
+    
 
     <About/>
 
