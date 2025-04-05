@@ -16,7 +16,227 @@
     }
 }
 
-.about-section{
+.services-section{
     background-color: $white;
     
+
+    &__content {
+        
+        h1{
+            font-size: $default-header-size;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .cardd {
+            padding: 4rem;
+        }
+    }
+}
+
+.team-section{
+    position: relative;
+    background-image: linear-gradient(to right, rgba($gold, 0.80), rgba($yellow, 0.80)),url("./img/mikolaj-felinski-r1poXNhANx4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    &__text{
+      padding-top: 5rem;
+    }
+
+    &__content{
+        text-align: center;
+        align-items: center;
+        
+       h1{
+         font-size: $default-header-size;
+       } 
+
+
+    }
+
+    &__personel {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+
+        .team-section__group1{
+            font-size: $default-font-size;
+            display: flex;
+            padding-top: 10rem;
+            gap: 5rem;
+            padding-left: 8rem;
+            
+            .biopic{
+                width: 15rem;
+                height: 15rem;
+                float: left;
+                -webkit-shape-outside: circle(50% at 50% 50%);
+                shape-outside: circle(50% at 50% 50%);
+                -webkit-clip-path: circle(50% at 50% 50%);
+                clip-path: circle(50% at 50% 50%);
+                position: relative;
+                object-fit: contain;
+
+                .tmembers{
+                    width: 100%;
+                    height: auto; 
+                    border-radius: 50%;
+                    object-fit: contain; 
+                }
+            }
+
+            .team-section__p1{
+                background-color: $white;
+                width: 45%;
+                padding: 2rem;
+                cursor: pointer;
+                transition: transform .2s;
+                
+                
+                
+                h3{
+                   
+                    padding-top: 2rem;
+                    text-transform: uppercase;
+                }
+
+                p{
+                    padding-top: 1.5rem;
+                   
+                }
+
+            }
+
+            .team-section__p1:hover {
+                transform: translateY(-2rem) scale(1.05);
+            }
+
+            .team-section__p2{
+                background-color: $white;
+                width: 45%;
+                padding: 2rem;
+                cursor: pointer;
+                transition: transform .2s;
+                
+                
+                h3{
+                   
+                    padding-top: 2rem;
+                    text-transform: uppercase;
+                }
+
+                p{
+                    padding-top: 1.5rem;
+                   
+                }
+
+            }
+
+            .team-section__p2:hover {
+                transform: translateY(-2rem) scale(1.05);
+            }
+        }
+
+        .team-section__group2{
+            font-size: $default-font-size;
+            display: flex;
+            padding-top: 10rem;
+            gap: 5rem;
+            padding-left: 8rem;
+
+            .biopic{
+                width: 15rem;
+                height: 15rem;
+                float: left;
+                -webkit-shape-outside: circle(50% at 50% 50%);
+                shape-outside: circle(50% at 50% 50%);
+                -webkit-clip-path: circle(50% at 50% 50%);
+                clip-path: circle(50% at 50% 50%);
+                position: relative;
+                object-fit: contain;
+
+                .tmembers{
+                    width: 100%;
+                    height: auto; 
+                    border-radius: 50%;
+                    object-fit: contain; 
+                }
+            }
+
+
+            .team-section__p3{
+                background-color: $white;
+                width: 45%;
+                padding: 2rem;
+                cursor: pointer;
+                transition: transform .2s;
+                
+                
+                h3{
+                   
+                    padding-top: 2rem;
+                    text-transform: uppercase;
+                }
+
+                p{
+                    padding-top: 1.5rem;
+                   
+                }
+
+            }
+
+            .team-section__p3:hover{
+                transform: translateY(-2rem) scale(1.05);
+            }
+
+            .team-section__p4{
+                background-color: $white;
+                width: 45%;
+                padding: 2rem;
+                cursor: pointer;
+                transition: transform .2s;
+                
+                
+                h3{
+                   
+                    padding-top: 2rem;
+                    text-transform: uppercase;
+                }
+
+                p{
+                    padding-top: 1.5rem;
+                   
+                }
+
+            }
+
+            .team-section__p4:hover{
+                transform: translateY(-2rem) scale(1.05);
+            }
+        }   
+
+        
+    }
+
+    
+
+    
+}
+
+.about-section {
+    
+    &__content{
+      display: flex;
+      flex-direction: column;
+
+
+        .about-svg {
+           width: 100%;
+           height: auto;
+           max-width: 80px;
+        }
+    }
 }

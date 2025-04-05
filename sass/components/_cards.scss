@@ -1,0 +1,45 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  padding: 10px;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+    flex: 1;
+    height: 35rem;
+    max-width: 25rem;
+    border: 1px solid $black;
+    border-radius: 2rem;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center; /* Center SVG and text */
+    padding: 59px; /* Add padding for better spacing */
+    background-color: $yellow;
+    transition: transform .2s;
+   
+    p {
+      padding-top: 11px;
+      font-size: $default-card-size;
+      text-align: center;
+    }
+
+    .card-header {
+      font-size: $default-card-header-size;
+    }
+}
+
+.cards:hover {
+   transform: translateY(-2rem) scale(1.05);
+}
+
+.cards .svg {
+  width: 100%; /* Make SVG responsive within the card */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 80px; /* Optional: Limit maximum size */
+}
+
