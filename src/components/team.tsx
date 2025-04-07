@@ -1,5 +1,5 @@
 import team1 from "../assets/team-1.jpg";
-import team2 from "../assets/team-2.jpg";
+import team2 from "../assets/medium-shot-bored-people-working.jpg";
 import team3 from "../assets/team-3.jpg";
 import team4 from "../assets/team-4.jpg";
 
@@ -7,7 +7,7 @@ export default function Team() {
     return (
         <section className="team-section">
             <div className="team-section__content">
-                <h1 className="team-section__text"> Meet The Team</h1>
+                <h1 className="team-section__text"> Career Opportunities</h1>
                 <div className="team-section__personel">
                     <div className="team-section__group1">
                         <div className="team-section__p1">
@@ -16,7 +16,7 @@ export default function Team() {
                             </figure>
 
                             <div>
-                             <h3>Dean Horn</h3>  
+                             <h3>Driver Careers</h3>  
 
                              <p>
                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem hic eligendi, facilis ipsam incidunt ut doloremque similique, neque nesciunt modi rep
@@ -32,7 +32,7 @@ export default function Team() {
                             </figure>
 
                             <div>
-                             <h3>Shay Comb</h3>  
+                             <h3>Office Careers</h3>  
 
                              <p>
                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem hic eligendi, facilis ipsam incidunt ut doloremque similique, neque nesciunt modi rep
@@ -50,7 +50,7 @@ export default function Team() {
                                 </figure>
 
                                 <div>
-                                  <h3>Lucy Hail</h3>  
+                                  <h3>Shop Careers</h3>  
 
                                   <p>
                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem hic eligendi, facilis ipsam incidunt ut doloremque similique, neque nesciunt modi rep
@@ -66,7 +66,7 @@ export default function Team() {
                                 </figure>
 
                                 <div>
-                                  <h3>Cain Bron</h3>  
+                                  <h3>Driver Training</h3>  
 
                                   <p>
                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem hic eligendi, facilis ipsam incidunt ut doloremque similique, neque nesciunt modi rep

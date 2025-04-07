@@ -240,3 +240,22 @@
         }
     }
 }
+
+.comp-section {
+    background-color: $dark-grey;
+    color: $yellow;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $default-font-size;
+
+    &__content{
+        display: flex;
+        flex-direction: row;
+        
+        p {
+            padding: 2rem;
+            margin: 0 auto;
+        }
+    }
+}
