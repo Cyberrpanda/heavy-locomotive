@@ -11,8 +11,9 @@
         left: 50%;
         transform: translate(-50%, -50%); 
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: $default-welcome-text-size;
         font-weight: 600;
+        
     }
 }
 
@@ -34,7 +35,7 @@
     }
 }
 
-.team-section{
+.career-section{
     position: relative;
     background-image: linear-gradient(to right, rgba($gold, 0.80), rgba($yellow, 0.80)),url("./img/mikolaj-felinski-r1poXNhANx4-unsplash.jpg");
     background-size: cover;
@@ -62,7 +63,7 @@
         margin: 0 auto;
         
 
-        .team-section__group1{
+        .career-section__group1{
             font-size: $default-font-size;
             display: flex;
             padding-top: 10rem;
@@ -73,22 +74,22 @@
                 width: 15rem;
                 height: 15rem;
                 float: left;
-                -webkit-shape-outside: circle(50% at 50% 50%);
-                shape-outside: circle(50% at 50% 50%);
-                -webkit-clip-path: circle(50% at 50% 50%);
-                clip-path: circle(50% at 50% 50%);
                 position: relative;
-                object-fit: contain;
+               
 
-                .tmembers{
+                .cmembers{
                     width: 100%;
-                    height: auto; 
+                    height: 100%; 
                     border-radius: 50%;
-                    object-fit: contain; 
+                    -webkit-shape-outside: circle(50% at 50% 50%);
+                    shape-outside: circle(50% at 50% 50%);
+                    -webkit-clip-path: circle(50% at 50% 50%);
+                    clip-path: circle(50% at 50% 50%);
+                    object-fit: cover; 
                 }
             }
 
-            .team-section__p1{
+            .career-section__p1{
                 background-color: $white;
                 width: 45%;
                 padding: 2rem;
@@ -110,11 +111,11 @@
 
             }
 
-            .team-section__p1:hover {
+            .career-section__p1:hover {
                 transform: translateY(-2rem) scale(1.05);
             }
 
-            .team-section__p2{
+            .career-section__p2{
                 background-color: $white;
                 width: 45%;
                 padding: 2rem;
@@ -135,12 +136,12 @@
 
             }
 
-            .team-section__p2:hover {
+            .career-section__p2:hover {
                 transform: translateY(-2rem) scale(1.05);
             }
         }
 
-        .team-section__group2{
+        .career-section__group2{
             font-size: $default-font-size;
             display: flex;
             padding-top: 10rem;
@@ -151,23 +152,23 @@
                 width: 15rem;
                 height: 15rem;
                 float: left;
-                -webkit-shape-outside: circle(50% at 50% 50%);
-                shape-outside: circle(50% at 50% 50%);
-                -webkit-clip-path: circle(50% at 50% 50%);
-                clip-path: circle(50% at 50% 50%);
                 position: relative;
-                object-fit: contain;
+               
 
-                .tmembers{
+                .cmembers{
                     width: 100%;
-                    height: auto; 
+                    height: 100%; 
                     border-radius: 50%;
-                    object-fit: contain; 
+                    -webkit-shape-outside: circle(50% at 50% 50%);
+                    shape-outside: circle(50% at 50% 50%);
+                    -webkit-clip-path: circle(50% at 50% 50%);
+                    clip-path: circle(50% at 50% 50%);
+                    object-fit: cover; 
                 }
             }
 
 
-            .team-section__p3{
+            .career-section__p3{
                 background-color: $white;
                 width: 45%;
                 padding: 2rem;
@@ -188,11 +189,11 @@
 
             }
 
-            .team-section__p3:hover{
+            .career-section__p3:hover{
                 transform: translateY(-2rem) scale(1.05);
             }
 
-            .team-section__p4{
+            .career-section__p4{
                 background-color: $white;
                 width: 45%;
                 padding: 2rem;
@@ -213,7 +214,7 @@
 
             }
 
-            .team-section__p4:hover{
+            .career-section__p4:hover{
                 transform: translateY(-2rem) scale(1.05);
             }
         }   
@@ -242,6 +243,26 @@
 }
 
 .comp-section {
+    background-color: $dark-grey;
+    color: $yellow;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $default-font-size;
+
+    &__content{
+        display: flex;
+        flex-direction: row;
+        
+        p {
+            padding: 2rem;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+.comp-section2 {
     background-color: $dark-grey;
     color: $yellow;
     height: auto;
