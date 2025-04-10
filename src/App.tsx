@@ -15,15 +15,19 @@ function App() {
     
     <Welcome/>
 
+    <Compstatus/>
+
+    <About/>
+
     <Services/>
 
-    <Compstatus/>
+    <Compstatus2/>
 
     <Career/>
 
-    <Compstatus2/>
     
-    <About/>
+    
+    
 
    </>
   

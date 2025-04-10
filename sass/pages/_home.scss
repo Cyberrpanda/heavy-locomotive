@@ -7,7 +7,7 @@
 
     &__text{
         position: absolute;
-        top: 50%;
+        top: 38.5%;
         left: 50%;
         transform: translate(-50%, -50%); 
         text-transform: uppercase;
@@ -228,17 +228,42 @@
 }
 
 .about-section {
+    position: relative;
+    background-image: url("./img/group-trucks-parked-row.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 20, 0.8); // dark overlay
+      z-index: 1;
+    }
+    
     
     &__content{
-      display: flex;
-      flex-direction: column;
+        position: relative;
+        z-index: 2; // Above the overlay
+        padding: 2rem;
+        text-align: center;
+        font-size: $default-header-size;
+        color: $white;
+        padding-top: 12rem;
+        
 
-
-        .about-svg {
-           width: 100%;
-           height: auto;
-           max-width: 80px;
+        p {
+            padding-top: 2rem;
+            font-size: $default-header-size;
         }
+        
+        
+
     }
 }
 

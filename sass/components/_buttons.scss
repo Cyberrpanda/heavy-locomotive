@@ -3,7 +3,7 @@
     border-radius: 2rem;
     padding: 1.5rem;
     position: absolute;
-    top: 54%;
+    top: 42%;
     left: 45%;
     text-transform: uppercase;
     text-decoration: none;
@@ -13,7 +13,7 @@
 
     &:hover{
         background-color: darken($yellow, 5%);   
-        transform: translateY(-6px); 
+        transform: translateY(-1.3rem); 
     }
 
     &:active {

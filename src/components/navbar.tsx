@@ -38,7 +38,7 @@ export default function Navbar() {
                 <Link smooth to="/#stack" onClick={closeNavbar}>Services</Link>
               </li>
               <li>
-                <Link smooth to="/#reason" onClick={closeNavbar}>Previous Purchases</Link>
+                <Link smooth to="/#reason" onClick={closeNavbar}>Career Opportunities</Link>
               </li>
               <li>
                 <Link smooth to="/#contactinfo" onClick={closeNavbar}>Contact Us</Link>

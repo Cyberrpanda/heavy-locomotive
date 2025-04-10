@@ -1,20 +1,28 @@
-import Cement from "./cement"
-import Dumptruck from "./dumptruck"
-import Firetruck from "./firetruck"
-import Fueltank from "./fueltanker"
-import Towtruck from "./towtruck"
-
 export default function About(){
     return(
         <section className="about-section">
-           <div className="about-section_content">
-            <div className="truck-types">
-                <Towtruck className="about-svg"/>
-                <Cement className="about-svg"/>
-                <Firetruck className="about-svg"/>
-                <Fueltank className="about-svg"/>
-                <Dumptruck className="about-svg"/>
-            </div>
+           <div className="about-section__content">
+              <h3>About Us</h3>
+
+              <p>
+                Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+                Officia eius fugiat porro deleni
+                ti veniam ratione, vero suscipit. 
+                Placeat inventore libero tempore 
+                rem maxime! Quisquam veritatis 
+                repellendus, minima natus 
+                inventore quasi.
+
+                Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. 
+                Illo enim deleniti repellat 
+                placeat neque sed a odio, 
+                incidunt rem. Reiciendis 
+                ipsum velit tempora ad rerum 
+                corporis accusantium quas sequi 
+                esse?
+              </p>
            </div>
         </section>
     )
