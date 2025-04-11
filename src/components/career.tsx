@@ -1,7 +1,7 @@
-import team1 from "../assets/man-working-as-truck-driver.jpg";
-import team2 from "../assets/medium-shot-female-economist-working-office.jpg";
-import team3 from "../assets/young-worker-checks-wheel-truck-malfunction-service-work.jpg";
-import team4 from "../assets/medium-shot-man-wearing-helmet.jpg";
+import team1 from "../assets/man-working-as-truck-driver.webp";
+import team2 from "../assets/medium-shot-female-economist-working-office.webp";
+import team3 from "../assets/young-worker-checks-wheel-truck-malfunction-service-work.webp";
+import team4 from "../assets/medium-shot-man-wearing-helmet.webp";
 
 export default function Career() {
     return (

@@ -5,6 +5,8 @@ import About from "./components/about.tsx";
 import Career from "./components/career.tsx";
 import Compstatus from "./components/compstatus.tsx";
 import Compstatus2 from "./components/compstatus2.tsx";
+import Footer from "./components/footer.tsx";
+
 
 
 
@@ -24,6 +26,8 @@ function App() {
     <Compstatus2/>
 
     <Career/>
+
+    <Footer/>
 
     
     

@@ -1,6 +1,6 @@
 .welcome{
     position: relative;
-    background-image: url("./img/diane-picchiottino-s6D7dw6w5h8-unsplash.jpg");
+    background-image: url("./img/diane-picchiottino-s6D7dw6w5h8-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -37,7 +37,7 @@
 
 .career-section{
     position: relative;
-    background-image: linear-gradient(to right, rgba($gold, 0.80), rgba($yellow, 0.80)),url("./img/mikolaj-felinski-r1poXNhANx4-unsplash.jpg");
+    background-image: linear-gradient(to right, rgba($gold, 0.80), rgba($yellow, 0.80)),url("./img/mikolaj-felinski-r1poXNhANx4-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -229,7 +229,7 @@
 
 .about-section {
     position: relative;
-    background-image: url("./img/group-trucks-parked-row.jpg");
+    background-image: url("./img/group-trucks-parked-row.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -305,3 +305,28 @@
         }
     }
 }
+
+.signup-section{
+    background-color: $white;
+    height: auto;
+    font-size: $default-font-size;
+
+    &__content{
+      display: flex;
+      flex-direction: column;
+
+      .signbio{
+        width: 200px;
+        height: 150px;
+      }
+    }
+}
+
+
+.footer-section {
+    background-color: $dark-grey;
+    color: $yellow;
+    height: auto;
+    font-size: $default-font-size;
+}
+
