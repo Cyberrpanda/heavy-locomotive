@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 export default function Signup(){
     return (
       <>
-      <Navbar></Navbar>
+      <Navbar/>
         <section className="signup-section">
             <div className="signup-section__content">
               <figure className="signbio">
@@ -58,7 +58,7 @@ export default function Signup(){
             </div>
         </section>
 
-        <Footer></Footer>
+        <Footer/>
         </>
     )
 }

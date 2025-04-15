@@ -9,42 +9,29 @@ import Compstatus2 from "./components/compstatus2.tsx";
 import Signup from "./components/signup.tsx";
 import Footer from "./components/footer.tsx";
 
-
-
-
-
 function App() {
   return (
-   <>
+    <>
+      <Navbar />
 
-    <Navbar/>
-    
-    <Welcome/>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Welcome />
+            <Compstatus />
+            <About />
+            <Services />
+            <Compstatus2 />
+            <Career />
+          </>
+        } />
 
-    <Routes>
-      <Route path="/signup" element={<Signup />} />
-    </Routes>
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
 
-    <Compstatus/>
-
-    <About/>
-
-    <Services/>
-
-    <Compstatus2/>
-
-    <Career/>
-
-    <Footer/>
-
-    
-    
-    
-
-   </>
-  
-  )
-
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
