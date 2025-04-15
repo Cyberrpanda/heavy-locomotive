@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section className="footer-section">
+        <section id="footer-section" className="footer-section">
            <div className="footer-section__content">
               <div className="head__logo-box">
                  <img src="/img/webdesignprojectlogo-removebg-preview.png" alt="" className="head__logo"/>

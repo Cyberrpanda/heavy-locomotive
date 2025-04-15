@@ -29,19 +29,16 @@ export default function Navbar() {
 
             <ul>
               <li>
-                <Link smooth to="/#home" onClick={closeNavbar}>Home</Link>
+                <Link smooth to="/#about-section" onClick={closeNavbar}>About Us</Link>
               </li>
               <li>
-                <Link smooth to="/#mylore" onClick={closeNavbar}>About Us</Link>
+                <Link smooth to="/#services-section" onClick={closeNavbar}>Services</Link>
               </li>
               <li>
-                <Link smooth to="/#stack" onClick={closeNavbar}>Services</Link>
+                <Link smooth to="/#career-section" onClick={closeNavbar}>Career Opportunities</Link>
               </li>
               <li>
-                <Link smooth to="/#reason" onClick={closeNavbar}>Career Opportunities</Link>
-              </li>
-              <li>
-                <Link smooth to="/#contactinfo" onClick={closeNavbar}>Contact Us</Link>
+                <Link smooth to="/#footer-section" onClick={closeNavbar}>Contact Us</Link>
               </li>
             </ul>
           </nav>

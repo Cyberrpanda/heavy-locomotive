@@ -2,7 +2,7 @@ import Card from "./card";
 
 export default function Services(){
     return (
-        <section className="services-section">
+        <section id="services-section" className="services-section">
           <div className="services-section__content">
           <h1>
             Services We Render

@@ -5,7 +5,7 @@ import team4 from "../assets/medium-shot-man-wearing-helmet.webp";
 
 export default function Career() {
     return (
-        <section className="career-section">
+        <section id="career-section" className="career-section">
             <div className="career-section__content">
                 <h1 className="career-section__text"> Career Opportunities</h1>
                 <div className="career-section__personel">
