@@ -20,11 +20,11 @@ export default function Navbar() {
       <>
         <header className="head">
           <nav ref={navRef} className={`navbar ${navIsOpen ? "open" : ""}`}>
-            <a href="../App.tsx">
+            <Link to="/">
               <div className="head__logo-box">
                 <img src="/img/webdesignlogo2-removebg-preview.png" alt="" className="head__logo"/>
               </div>
-            </a>
+            </Link>
             
 
             <ul>

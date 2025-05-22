@@ -19,6 +19,7 @@
 
 .services-section{
     background-color: $white;
+    height: 80vh;
     
 
     &__content {
@@ -308,18 +309,54 @@
 
 .signup-section{
     background-color: $white;
-    height: auto;
+    height: 100vh;
     font-size: $default-font-size;
+    padding-top: 9rem;
+    padding-left: 25rem;
+
 
     &__content{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
 
-      .signbio{
-        width: 200px;
-        height: 150px;
-      }
     }
+
+    .form{
+        padding: 5rem;
+        position: relative;
+      }
+      
+      .form input{
+        width: 200px;
+        height: 32px;
+        border: 1px solid;
+        border-radius: 5px;
+      
+      }
+      
+      .form select{
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      
+      .form label{
+         font-weight: 600;
+         padding: 2px;
+      }
+
+      .form-fields{
+        padding: 7px;
+        
+      }
+      
+      
+      
+      .regdis{
+        width: 35rem;
+        height: 52.5rem;
+      }
+      
 }
 
 

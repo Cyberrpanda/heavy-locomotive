@@ -29,6 +29,22 @@
         }
     }
 
+    &--success {
+      background-color: $yellow;
+      border-radius: 2rem;
+      padding: 1.2rem;
+      position: absolute;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $black;
+      font-size: $default-font-size;
+      transition: all .2s;
+
+    &:hover{
+        transform: translateY(-1.3rem); 
+    }
+    }
+
     &::after {
         content: "";
         display: inline-block;

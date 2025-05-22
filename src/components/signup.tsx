@@ -1,10 +1,8 @@
 import signup from "../assets/transport-logistics-concept.jpg"
-import Footer from "./footer";
-import Navbar from "./navbar";
+
 export default function Signup(){
     return (
       <>
-      <Navbar/>
         <section className="signup-section">
             <div className="signup-section__content">
               <figure className="signbio">
@@ -16,49 +14,55 @@ export default function Signup(){
             
 
             <form action="" className="form">
+                  <div className="form-fields">
                   <label htmlFor="" >Fullname</label>
-                  <br />
                   <input type="text"  className="form-control"  placeholder="Fullname"/>
-                  <br />
+                  </div>
+                  
+                  <div className="form-fields">
                   <label htmlFor="" >Email Address</label>
-                  <br />
-                  <input type="email" className="form-control"  placeholder="patient@gmail.com"/>
-                  <br />
+                  <input type="email" className="form-control"  placeholder="Client@gmail.com"/>
+                  </div>
+                  
+                  <div className="form-fields">
                   <label htmlFor="" >Confirm Email Address</label>
-                  <br />
-                  <input type="email" className="form-control"  placeholder="patient@gmail.com"/>
-                  <br />
+                  <input type="email" className="form-control"  placeholder="Client@gmail.com"/>
+                  </div>
+                  
+                  <div className="form-fields">
                   <label htmlFor="" >Password</label>
-                  <br />
                   <input type="password"  className="form-control" placeholder="*******" />
-                  <br />
+                  </div>
+                  
+                  <div className="form-fields">
                   <label htmlFor="" >Confirm Password</label>
-                  <br />
                   <input type="password" className="form-control" placeholder="*******" />
-                  <br />
+                  </div>
+                  
+                  <div className="form-fields">
                   <label htmlFor="" >Date of Birth</label>
-                  <br />
                   <input type="date" className="form-control" />
-                  <br />
+                  </div>
+                  
+                  <div className="form-fields">
                   <label htmlFor="" >Gender</label>
-                  <br />
                   <select className="form-control">
+                    
                   <option value="0"></option>
                   <option value="1">Male</option>
                   <option value="2">Female</option>
                   <option value="3">Other</option>
                   </select>
-                  <br />
+                  </div>
                   
-                  <button type="submit" className="btn btn-success">Submit</button>
+                  
+                  <button type="submit" className=" btn--success">Submit</button>
             </form>
                 
 
 
             </div>
         </section>
-
-        <Footer/>
         </>
     )
 }
