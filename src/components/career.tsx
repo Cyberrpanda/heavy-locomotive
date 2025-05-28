@@ -1,7 +1,21 @@
 import team1 from "../assets/man-working-as-truck-driver.jpg";
+import team1Webp480 from "../assets/480 (2).webp";
+import team1Webp768 from "../assets/768 (2).webp";
+import team1Webp1200 from "../assets/1200 (2).webp";
 import team2 from "../assets/medium-shot-female-economist-working-office.jpg";
-import team3 from "../assets/young-worker-checks-wheel-truck-malfunction-service-work.jpg";
-import team4 from "../assets/medium-shot-man-wearing-helmet.jpg";
+import team2Webp480 from "../assets/480.webp";
+import team2Webp768 from "../assets/768.webp";
+import team2Webp1200 from "../assets/1200.webp";
+import team3 from "../assets/medium-shot-man-wearing-helmet.jpg";
+import team3Webp480 from "../assets/480 (3).webp";
+import team3Webp768 from "../assets/768 (3).webp";
+import team3Webp1200 from "../assets/1200 (3).webp";
+import team4 from "../assets/young-worker-checks-wheel-truck-malfunction-service-work.jpg";
+import team4Webp480 from "../assets/480 (4).webp";
+import team4Webp768 from "../assets/768 (4).webp";
+import team4Webp1200 from "../assets/1200 (4).webp";
+
+
 
 export default function Career() {
     return (
@@ -12,7 +26,13 @@ export default function Career() {
                     <div className="career-section__group1">
                         <div className="career-section__p1">
                             <figure className="biopic">
-                            <img className="cmembers" src={team1} alt="t1" />
+                                <picture>
+                                    <source media="(max-width: 480px)" srcSet={team1Webp480} type="image/webp" />
+                                    <source media="(max-width: 768px)" srcSet={team1Webp768} type="image/webp" />
+                                    <source srcSet={team1Webp1200} type="image/webp" />
+                                  <img className="cmembers" src={team1} loading="lazy" alt="t1" />
+                                </picture>
+                            
                             </figure>
 
                             <div>
@@ -28,7 +48,12 @@ export default function Career() {
 
                         <div className="career-section__p2">
                             <figure className="biopic">
-                            <img className="cmembers" src={team2} alt="t2" />
+                            <picture>
+                                    <source media="(max-width: 480px)" srcSet={team2Webp480} type="image/webp" />
+                                    <source media="(max-width: 768px)" srcSet={team2Webp768} type="image/webp" />
+                                    <source srcSet={team2Webp1200} type="image/webp" />
+                                  <img className="cmembers" src={team2} loading="lazy" alt="t1" />
+                                </picture>
                             </figure>
 
                             <div>
@@ -46,7 +71,12 @@ export default function Career() {
                     <div className="career-section__group2">
                             <div className="career-section__p3">
                                     <figure className="biopic">
-                                    <img className="cmembers" src={team3} alt="t3" />
+                                    <picture>
+                                    <source media="(max-width: 480px)" srcSet={team3Webp480} type="image/webp" />
+                                    <source media="(max-width: 768px)" srcSet={team3Webp768} type="image/webp" />
+                                    <source srcSet={team3Webp1200} type="image/webp" />
+                                  <img className="cmembers" src={team3} loading="lazy" alt="t1" />
+                                </picture>
                                     </figure>
 
                                     <div>
@@ -62,7 +92,12 @@ export default function Career() {
 
                             <div className="career-section__p4">
                                 <figure className="biopic">
-                                <img className="cmembers" src={team4} alt="t4" />
+                                <picture>
+                                    <source media="(max-width: 480px)" srcSet={team4Webp480} type="image/webp" />
+                                    <source media="(max-width: 768px)" srcSet={team4Webp768} type="image/webp" />
+                                    <source srcSet={team4Webp1200} type="image/webp" />
+                                  <img className="cmembers" src={team4} loading="lazy" alt="t1" />
+                                </picture>
                                 </figure>
 
                                 <div>

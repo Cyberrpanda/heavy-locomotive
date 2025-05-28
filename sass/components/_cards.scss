@@ -6,6 +6,25 @@
   gap: 5rem;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 820px) {
+    display: flex;
+    flex-direction: column;
+      
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+      
+  }
+
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+      
+  }
+
 }
 
 .cards {

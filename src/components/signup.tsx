@@ -1,4 +1,4 @@
-import signup from "../assets/transport-logistics-concept.jpg"
+import signup from "../assets/1200 (5).webp";
 
 export default function Signup(){
     return (
