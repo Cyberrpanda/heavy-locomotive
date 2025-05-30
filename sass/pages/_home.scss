@@ -128,6 +128,13 @@
                 float: left;
                 position: relative;
                
+            @media (max-width: 480px) {
+                width: 13rem;
+                height: 15rem;
+                float: left;
+                position: relative;
+    
+            }
 
                 .cmembers{
                     width: 100%;
@@ -202,6 +209,14 @@
                 float: left;
                 position: relative;
                
+            @media (max-width: 480px) {
+                width: 13rem;
+                height: 15rem;
+                float: left;
+                position: relative;
+    
+            }
+
 
                 .cmembers{
                     width: 100%;
