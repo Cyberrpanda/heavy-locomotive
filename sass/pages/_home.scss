@@ -1,6 +1,6 @@
 .welcome{
     position: relative;
-    background-image: url("../assets/diane-picchiottino-s6D7dw6w5h8-unsplash.webp");
+    background-image: url("/assets/diane-picchiottino-s6D7dw6w5h8-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -31,13 +31,13 @@
 
     @media (max-width: 768px) {
      background-image:
-      url("../assets/768(2).webp");
+      url("/assets/768(2).webp");
       color: black;
   }
 
     @media (max-width: 480px) {
      background-image:
-      url("../assets/480(2).webp");
+      url("/assets/480(2).webp");
       color: black;
   }
 
@@ -63,7 +63,7 @@
 
 .career-section{
     position: relative;
-    background-image: linear-gradient(to right, rgba($gold, 0.80), rgba($yellow, 0.80)),url("../assets/mikolaj-felinski-r1poXNhANx4-unsplash.webp");
+    background-image: linear-gradient(to right, rgba($gold, 0.80), rgba($yellow, 0.80)),url("/assets/mikolaj-felinski-r1poXNhANx4-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
@@ -87,7 +87,7 @@
     @media (max-width: 768px) {
     background-image: 
       linear-gradient(to right, rgba($gold, 0.8), rgba($yellow, 0.8)),
-      url("../assets/768(3).webp");
+      url("/assets/768(3).webp");
       flex-direction: column;
       align-items: center;
 
@@ -102,7 +102,7 @@
     @media (max-width: 480px) {
         background-image: 
         linear-gradient(to right, rgba($gold, 0.8), rgba($yellow, 0.8)),
-        url("../assets/480(3).webp");
+        url("/assets/480(3).webp");
     }
 
     &__personel {
@@ -273,19 +273,19 @@
 
 .about-section {
     position: relative;
-    background-image: url("../assets/group-trucks-parked-row.webp");
+    background-image: url("/assets/group-trucks-parked-row.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     
     @media (max-width: 768px) {
     background-image: 
-      url("../assets/768.webp");
+      url("/assets/768 (6).webp");
   }
 
   @media (max-width: 480px) {
     background-image: 
-      url("../assets/480.webp");
+      url("/assets/480 (6).webp");
   }
 
     &::after {
