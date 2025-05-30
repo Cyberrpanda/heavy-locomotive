@@ -20,11 +20,13 @@
     @media (max-width: 768px) {
      background-image:
       url("./img/768(2).webp");
+      color: black;
   }
 
     @media (max-width: 480px) {
      background-image:
       url("./img/480(2).webp");
+      color: black;
   }
 
 }
@@ -420,5 +422,68 @@
     color: $yellow;
     height: auto;
     font-size: $default-font-size;
+
+
+    &__content{
+        display: flex;
+        gap: 7rem;
+
+
+        &-2{
+            
+            .footer__form{
+                padding-top: 4rem;
+                
+
+                input{
+                    padding: 8px;
+                    border-radius: 10px;
+                }
+            }
+
+            p{
+                padding-top: 4rem;
+            }
+        }
+
+        &-3{
+
+            p{
+                padding-top: 4rem
+            }
+
+            .svg-group{
+                padding-top: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         gap: 3rem;
+
+
+          &-2{
+            p{
+             padding-top: 2rem;
+            }
+          }
+
+          &-3{
+            p{
+             padding-top: 2rem;   
+            }
+          }
+        
+         .svg-group{
+                padding-top: 0;
+                margin: 0 auto;;
+            }
+          
+        }
+    }
+
 }
 
