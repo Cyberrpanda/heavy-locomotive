@@ -22,7 +22,7 @@ export default function Navbar() {
           <nav ref={navRef} className={`navbar ${navIsOpen ? "open" : ""}`}>
             <Link to="/">
               <div className="head__logo-box">
-                <img src="/img/webdesignlogo2-removebg-preview.png" alt="" className="head__logo"/>
+                <img src="../assets/webdesignlogo2-removebg-preview.png" alt="" className="head__logo"/>
               </div>
             </Link>
             

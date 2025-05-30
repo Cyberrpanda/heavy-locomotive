@@ -8,7 +8,7 @@ export default function Footer() {
            <div className="footer-section__content">
              <div className="footer-section__content-1">
                  <div className="head__logo-box">
-                  <img src="/img/webdesignprojectlogo-removebg-preview.png" alt="" className="head__logo"/>
+                  <img src="../assets/webdesignprojectlogo-removebg-preview.png" alt="" className="head__logo"/>
                  </div>
              </div>
               
